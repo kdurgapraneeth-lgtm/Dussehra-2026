@@ -1,0 +1,114 @@
+/*Styling for header section*/
+
+/*Basic*/
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*Back button container*/
+.back_btn_container{
+  background-color: white;
+  border: solid;
+  border-color: #232931;
+  border-radius: 56px;
+  border-width: 0.5px;
+  margin-left: 16px;
+  cursor: pointer;
+}
+#back_btn{
+  padding: 8px;
+  color: #232931;
+}
+.back_btn_container:active{
+  opacity: 0.3;
+}
+/*Sign up text*/
+#sign_heading{
+  margin: 0;
+  font-size: 24px;
+  font-weight: 300;
+  color: #232931;
+  margin-left: 16px;
+}
+/*Header container*/
+.head_container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 16px;
+}
+
+/*Styling for User details section*/
+
+/*Name and input box*/
+.promt_tags{
+  color: #232931;
+  font-size: 24px;
+  margin: 16px 0 8px 0;
+}
+/*error messages*/
+.error_message{
+  color: red;
+  font-size: 14px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  margin: 0;
+  margin-top: 8px;
+}
+/*input fields*/
+.input_box{
+  width: 90%;
+  color: #232931;
+  padding: 12px 16px;
+  margin-top: 4px;
+  font-size: 18px;
+  border-radius: 8px;
+  border: solid;
+  border-color: #232931;
+  border-width: 0.5px;
+  outline: none;
+}
+.input_box:focus{
+  border-color: #3575DD;
+}
+/*placeholders*/
+::placeholder{
+  color: #cfd4db;
+  font-size: 16px;
+  font-weight: 300;
+}
+/*button container*/
+.button_container{
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*Done button*/
+#done_btn{
+  color: #fff;
+  font-size: 16px;
+  background-color: #232931;
+  border: none;
+  padding: 16px 32px;
+  border-radius: 24px;
+}
+/*done button after click*/
+#done_btn:active{
+  background-color: #fff;
+  color: #232931;
+  border: solid;
+  border-color: #232931;
+  border-radius: 32px;
+  border-width: 1px;
+}
+/*user details container*/
+.user_details{
+  margin: 16px;
+}
+
+/*END*/
