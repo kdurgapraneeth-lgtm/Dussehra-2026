@@ -1,0 +1,44 @@
+/*Sign up button styling*/
+
+#sign_btn{
+  display: flex;
+  position: fixed;
+  bottom: 24px;                  
+  left: 50%;               
+  transform: translateX(-50%);
+  padding: 12px 48px;
+  color: #232931;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 48px;
+  background-color: #fff;
+  border: solid;
+  border-color: #232931;
+  border-width: 0.5px;
+  cursor: pointer;
+}
+/*Sign active*/
+#sign_btn:active{
+  opacity: 0.3;
+}
+
+/*Delete dialog box*/
+
+/*Dialog box container*/
+#delete_edit_container{
+  display: none;       /*Delete & Edit dialog-box hidden by here*/
+  border: solid;
+  border-width: 0.2px;
+  border-color: #cfd4db;
+}
+/*Delete button*/
+#delete_btn{
+  color: red;
+  font-size: 16px;
+  border: solid;
+  background-color: #fff;
+  border-width: 0.5px;
+  border-radius: 24px;
+  padding: 8px 16px;
+  margin-bottom: 16px;
+}
